@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cv_profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_agung_pambudi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/title_name"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cv_profile"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/name"
+        app:layout_constraintLeft_toLeftOf="@id/tv_title_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_name" />
+
+    <TextView
+        android:id="@+id/tv_title_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/title_email"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="@id/tv_title_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/email"
+        app:layout_constraintLeft_toLeftOf="@id/tv_title_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_email" />
+
+    <ImageView
+        android:id="@+id/iv_mail"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="15dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/ic_gmail"
+        app:layout_constraintBottom_toBottomOf="@id/tv_email"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_email" />
+
+    <TextView
+        android:id="@+id/tv_title_whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/title_whatsapp"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="@id/tv_title_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_email"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/tv_whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/whatsapp"
+        app:layout_constraintLeft_toLeftOf="@id/tv_title_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_whatsapp" />
+
+    <ImageView
+        android:id="@+id/iv_wa"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="15dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/ic_whatsapp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_whatsapp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_whatsapp" />
+
+    <TextView
+        android:id="@+id/tv_title_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/title_desc"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="@id/tv_title_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_whatsapp"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/desc_app"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="@id/tv_title_desc"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_desc" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

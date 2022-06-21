@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DamriApps[Contact]</string>
+
+    <string name="content_description">Content Description</string>
+    <string name="login">Login</string>
+    <string name="register">Daftar</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Lupa Password</string>
+    <string name="list_contact">Daftar Kontak</string>
+    <string name="name">Agung Pambudi</string>
+    <string name="email">agungpambudi139@gmail.com</string>
+    <string name="whatsapp">+6285758668669</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="desc_app">Aplikasi ini dibuat untuk memenuhi Tes TKB BUMN Perum DAMRI bidang Android Developer</string>
+
+    <string name="title_register">Belum Punya Akun ?</string>
+    <string name="title_splash">Tes Aplikasi Perum DAMRI</string>
+    <string name="title_login_success">Login Berhasil</string>
+    <string name="title_login_fail">Username atau Password Salah</string>
+    <string name="title_error">Error</string>
+    <string name="title_account">Login Sebagai</string>
+    <string name="title_name">Nama</string>
+    <string name="title_email">Email</string>
+    <string name="title_whatsapp">WhatsApp</string>
+    <string name="title_phone">Telepon</string>
+    <string name="title_desc">Deskripsi</string>
+    <string name="hint_search_contact">Cari Kontak</string>
+
+</resources>
