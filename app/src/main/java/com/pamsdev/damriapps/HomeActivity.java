@@ -182,4 +182,5 @@ public class HomeActivity extends AppCompatActivity {
         binding.rvDataContact.setVisibility(View.GONE);
         getListContact();
     }
+
 }

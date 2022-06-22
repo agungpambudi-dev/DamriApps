@@ -20,7 +20,7 @@
             android:windowSoftInputMode="adjustResize" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivity"/>
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
